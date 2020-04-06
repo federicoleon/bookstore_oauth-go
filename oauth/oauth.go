@@ -1,15 +1,15 @@
 package oauth
 
 import (
-	"net/http"
-	"strings"
-	"github.com/mercadolibre/golang-restclient/rest"
-	"time"
-	"fmt"
 	"encoding/json"
-	"strconv"
-	"github.com/federicoleon/bookstore_utils-go/rest_errors"
 	"errors"
+	"fmt"
+	"github.com/federicoleon/bookstore_utils-go/rest_errors"
+	"github.com/mercadolibre/golang-restclient/rest"
+	"net/http"
+	"strconv"
+	"strings"
+	"time"
 )
 
 const (
